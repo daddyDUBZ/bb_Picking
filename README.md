@@ -1,3 +1,11 @@
+Credit goes to original author.  See below.
+
+Removed Warmenu
+Added UI prompts
+Modified cooldown
+added support for vorp-progressbar
+added cancarry checks for received items
+
 RESOURCE CREATED FOR THE Bluebird redM server -
 # Implemented by Chommpe
 
