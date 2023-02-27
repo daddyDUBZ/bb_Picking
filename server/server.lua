@@ -14,6 +14,6 @@ AddEventHandler("herb:giveHarvestItems", function(itemName, itemCount)
         Inventory.addItem(_source, itemName, itemCount)
         TriggerClientEvent("vorp:TipBottom", _source, "You have collected "..itemCount.." "..iteminfo.label, 4000)
     else
-        TriggerClientEvent("vorp:TipBottom", _source, "Not enought space for this item.", 4000)
+        TriggerClientEvent("vorp:TipBottom", _source, "Not enought space for this item", 4000)
     end
 end)

@@ -1,11 +1,3 @@
-# bb_Picking
-RedM Picking Resource
-
-Credit goes to the original author.
-
-If it does not work for you verify you have the items in your DB.
-
-
 RESOURCE CREATED FOR THE Bluebird redM server -
 # Implemented by Chommpe
 
@@ -27,3 +19,4 @@ Add this to your server.cfg
 ensure progress_bar
 ensure bb_picking
 ```
+ 
