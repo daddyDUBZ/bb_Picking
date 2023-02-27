@@ -94,7 +94,7 @@ function goCollect(picktype)
     TaskPlayAnim(playerPed, "mech_pickup@plant@berries", "base", 8.0, -0.5, -1, 0, 0, true, 0, false, 0, false)
     Wait(2300)
     Citizen.CreateThread(function()
-        Citizen.Wait(300000)
+        Citizen.Wait(Config.PickCooldown)
         table.remove(PickedBushes, GetArrayKey(PickedBushes, tostring(picktype)))
     end)
 end
