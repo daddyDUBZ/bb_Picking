@@ -12,7 +12,7 @@ AddEventHandler("herb:giveHarvestItems", function(itemName, itemCount)
     local iteminfo = Inventory.getDBItem(_source, itemName)
     local hasCount = Inventory.getItemCount(_source, itemName)
     
-    local canCarry = function()
+    local canCarry = function() -- This because canCarryItem returns a message (undesireable)
         if itemCount + hasCount <= 10 then
             return true
         end
