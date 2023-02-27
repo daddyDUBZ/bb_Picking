@@ -6,6 +6,9 @@ Modified cooldown
 added support for vorp-progressbar
 added cancarry checks for received items
 
+# vorp_lumberjack
+Used some code from lumberjack resource for these changes.
+
 RESOURCE CREATED FOR THE Bluebird redM server -
 # Implemented by Chommpe
 
